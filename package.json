@@ -1,0 +1,26 @@
+{
+  "name": "StarCitizen_data_parser",
+  "version": "1.0.0",
+  "description": "A quick and dirty json data interpeter for star citizen data do fill a database",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/parser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rovexx/StarCitizen_data_parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rovexx/StarCitizen_data_parser/issues"
+  },
+  "homepage": "https://github.com/Rovexx/StarCitizen_data_parser#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.22",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.6"
+  }
+}
